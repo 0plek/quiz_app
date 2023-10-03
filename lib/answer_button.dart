@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class AnswearButton extends StatelessWidget {
-  const AnswearButton({
+class AnswerButton extends StatelessWidget {
+  const AnswerButton({
     super.key,
-    required this.answearText,
+    required this.answerText,
     required this.onTap,
   });
 
-  final String answearText;
+  final String answerText;
   final void Function() onTap;
 
   @override
@@ -24,7 +24,7 @@ class AnswearButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(40),
           ),
         ),
-        child: Text(answearText),
+        child: Text(answerText),
       ),
     );
   }
